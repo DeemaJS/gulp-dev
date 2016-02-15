@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/DeemaJS/gulp-dev/issues"
   },
-  "homepage": "https://github.com/DeemaJS/gulp-dev#readme"
+  "homepage": "https://github.com/DeemaJS/gulp-dev#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-myth": "^1.1.0"
+  }
 }
