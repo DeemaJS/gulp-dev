@@ -3,6 +3,14 @@ var concat = require('gulp-concat');
 var myth = require('gulp-myth');
 var uglify = require('gulp-uglify');
 var imagemin = require('gulp-imagemin');
+var connect = require('connect');
+var serve = require('serve-static');
+var browsersync = require('browser-sync');
+var browserify = require('browserify');
+var source = require('vinyl-source-stream');
+var plumber = require('gulp-plumber');
+var util = require('beeper');
+var del = require('del'); 
 
 
 // styles task
