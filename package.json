@@ -22,7 +22,7 @@
     "browser-sync": "^2.11.1",
     "browserify": "^13.0.0",
     "connect": "^3.4.1",
-    "gulp": "^3.9.1",
+    "gulp": "*",
     "gulp-concat": "^2.6.0",
     "gulp-imagemin": "^2.4.0",
     "gulp-jshint": "^2.0.0",

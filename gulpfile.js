@@ -89,4 +89,4 @@ gulp.task('watch', function() {
 });
 
 // Default Task
-gulp.task('default', gulp.series('clean', 'styles', 'scripts', 'images', 'browsersync', 'watch'));
+gulp.task('default', ['clean', 'styles', 'scripts', 'images', 'browsersync', 'watch']);
